@@ -1,3 +1,5 @@
+
+
 html, body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
@@ -92,10 +94,10 @@ aside.container{
   font-size: 22px;
   background: rgba(0, 0, 0, .25)}
 
-.pic01{background: url(images/pic01.jpg)}
-.pic02{background: url(images/pic02.jpg)}
-.pic03{background: url(images/pic03.jpg)}
-.pic04{background: url(images/pic04.jpg)}
+.pic01{background: url(images/pic01.jpg) no-repeat;}
+.pic02{background: url(images/pic02.jpg) no-repeat;}
+.pic03{background: url(images/pic03.jpg) no-repeat;}
+.pic04{background: url(images/pic04.jpg) no-repeat;}
 
 .item p{
   text-align: center;
@@ -136,4 +138,11 @@ aside.container{
 
 .nogb p{
   margin-bottom: 45px;
+}
+
+@media only screen (max-width: 1000px){
+  .container{
+    width: 100vw;
+  }
+  
 }
